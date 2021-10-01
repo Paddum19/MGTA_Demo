@@ -2,14 +2,8 @@
 <html lang="en">
 <head>
 
-     <title>Known - Education HTML Template</title>
-<!-- 
-
-Known Template 
-
-https://templatemo.com/tm-516-known
-
--->
+     <title>MGTA - Training Institute</title>
+	<link rel="icon" href="images/logo.PNG" type="images/logo.PNG" />
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta name="description" content="">
@@ -663,9 +657,12 @@ https://templatemo.com/tm-516-known
 	<script type="text/javascript">
 
 		$( document ).ready(function() {	
+			  
 			  $('#type').val("Student");
 		});
-
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(0);
+		});
 		$(function(){
 			$('#mentorClick').click(function () {
 				$('#type').val("Mentor");
