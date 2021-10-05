@@ -256,6 +256,63 @@ https://templatemo.com/tm-516-known
       MENU              
   -----------------------------------------*/
 
+   .mainHeading{
+	margin-top: 10px;
+    margin-left: 17px;
+    font-family: Impact, Charcoal, sans-serif;
+	font-size: 33px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: underline solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: normal;
+	text-transform: uppercase;
+   }
+   
+   .company-logo-image{
+		width: 115px !important;
+		height: 60px;
+	}
+   
+   .toast-custom{
+	  background-color: #29ca8e;
+	}
+	.float-whatsapp-left{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:40px;
+		left:40px;
+		background-color:#25d366;
+		color:#ffffff;
+		border-radius:50px;
+		text-align:center;
+		font-size:30px;
+		box-shadow: 2px 2px 3px #999;
+		z-index:100;
+	}
+	
+	.float-call-right{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:40px;
+		right:40px;
+		background-color:#ffffff;
+		color:#000000;
+		border-radius:50px;
+		text-align:center;
+		font-size:30px;
+		box-shadow: 2px 2px 3px #999;
+		z-index:100;
+	}
+
+	.my-float{
+		margin-top:16px;
+	}
+   
   .custom-navbar {
     background: #ffffff;
     border-top: 5px solid #29ca8e;
@@ -276,7 +333,7 @@ https://templatemo.com/tm-516-known
   }
 
   .custom-navbar .navbar-nav.navbar-nav-first {
-    margin-left: 8em;
+    margin-left: 0em;
   }
 
   .custom-navbar .navbar-nav.navbar-right li a {
@@ -515,7 +572,27 @@ https://templatemo.com/tm-516-known
   .courses-thumb {
     background: #f9f9f9;
     position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
   }
+
+  .course-div{
+	  box-shadow: 0 0 5px 1px #192841;
+	  padding : 16px;
+	  margin: 16px 46px;
+	   -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+  }
+  .course-div:hover {
+    -webkit-transform:scale(1.10); /* Safari and Chrome */
+    -moz-transform:scale(1.10); /* Firefox */
+    -ms-transform:scale(1.10); /* IE 9 */
+    -o-transform:scale(1.10); /* Opera */
+     transform:scale(1.10);
+}
 
   .courses-top {
     position: relative;
@@ -633,11 +710,11 @@ https://templatemo.com/tm-516-known
     text-align: left;
   }
 
-  #courses .col-md-4,
+ /* #courses .col-md-4,
   #testimonial .col-md-4 {
     display: block;
     width: 100%;
-  }
+  }*/
 
   #testimonial .item > p {
     font-size: 16px;
